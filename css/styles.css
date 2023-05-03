@@ -1,0 +1,186 @@
+* {
+    margin: auto;
+    padding: inherit;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*:::::Header*/
+.header {
+    background: hsla(188, 100%, 53%, 1);
+
+    background: linear-gradient(90deg, hsla(188, 100%, 53%, 1) 0%, hsla(219, 93%, 57%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(188, 100%, 53%, 1) 0%, hsla(219, 93%, 57%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(188, 100%, 53%, 1) 0%, hsla(219, 93%, 57%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#0FDFFF", endColorstr="#2A72F7", GradientType=1);
+
+    align-items: center;
+}
+
+.img-logo {
+    width: 100px;
+}
+
+.navbar {
+    background: hsla(188, 100%, 53%, 1);
+
+    background: linear-gradient(90deg, hsla(188, 100%, 53%, 1) 0%, hsla(219, 93%, 57%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(188, 100%, 53%, 1) 0%, hsla(219, 93%, 57%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(188, 100%, 53%, 1) 0%, hsla(219, 93%, 57%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#0FDFFF", endColorstr="#2A72F7", GradientType=1);
+}
+
+.navbar-nav a:hover {
+    background: #2c10e0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#bienvenida {
+    background-color: #b2f2ff;
+    padding: 10px;
+}
+
+#form {
+    background-color: #4fdcff;
+    padding: 10px;
+    text-align: center;
+
+}
+
+#experiencia {
+    background-image: url(../recursos/portada\ club.jpg);
+    background-size: cover;
+    padding: 20px;
+}
+
+#cursos {
+    background-color: #4159d4;
+    padding: 20px;
+}
+
+h1,
+h2 {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 10%;
+
+}
+
+.form-group {
+    display: inline-block;
+    text-align: center;
+}
+
+input[type="text"],
+select {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: rgba(89, 100, 219, 0.411);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+/* aca empieza cdd de carrito */
+
+.store {
+    padding-top: 10px;
+    background: rgb(1, 18, 21);
+
+}
+
+.shopping-cart {
+    background: rgb(1, 20, 22);
+
+}
+
+.item {
+    border: 2px solid #3d64e7;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.item-titulo {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    color: #fcfcfc;
+}
+
+.item-price {
+    color: #fcfcfc;
+}
+
+
+.item-image {
+    height: 300px;
+    width: 100%;
+}
+
+.item-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px 15px;
+}
+
+.item-details>.item-price {
+    margin: 0;
+}
+
+/* carrito */
+.shopping-cart-items {
+    padding: 20px 0px;
+    color: #fcfcfc;
+}
+
+.shopping-cart {
+    color: #fcfcfc;
+}
+
+.shopping-cart-header {
+    border-bottom: 1px solid #fcfcfc;
+}
+
+.shopping-cart-image {
+    max-width: 80px;
+    border-radius: 20px;
+}
+
+.shopping-cart-quantity-input {
+    max-width: 45px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #eee;
+    padding: 5px;
+}
+
+.shopping-cart-total {
+    min-height: 96px;
+}
+
+.modal {
+    color: #2c10e0;
+}
+.footer {
+    background-color: black;}
