@@ -100,7 +100,16 @@ button {
     cursor: pointer;
 }
 
-
+#logout-button {
+    border-radius: 4px;
+    
+    margin-bottom: 10px;
+  }
+  
+  #logout-button:hover {
+    background-color: #08073a;
+    color: #fff;
+  }
 /* aca empieza cdd de carrito */
 
 .store {
@@ -120,7 +129,7 @@ button {
     border-radius: 20px;
 }
 
-.item-titulo {
+.item-title{
     text-transform: uppercase;
     text-align: center;
     font-weight: 600;
